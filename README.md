@@ -1,6 +1,11 @@
 OrbisFactions
 =============
 
+kekw bad plugin dont use
+- code polished
+- sql implemented
+- optimized
+
 ```
 /faction list 
 /faction add [player]
