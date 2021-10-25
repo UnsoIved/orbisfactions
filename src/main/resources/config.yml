@@ -1,0 +1,26 @@
+# It's very obvious, just read the key name and you'll know what it does
+database:
+  # 'orbisfactions' in the the default connection string is the database name, change that part only, do not change other parts
+  connection: 'jdbc:mysql://localhost:3306/orbisfactions?useUnicode=true&characterEncoding=UTF-8'
+  username: 'root'
+  password: ''
+  # DO NOT EDIT UNLESS YOU KNOW WHAT YOU'RE DOING!
+  optimizations:
+    min-idle: 4
+    max-pool-size: 10
+    max-life-time: 600000
+
+# Threads to execute async tasks, like database reads/writes
+threads: 4
+
+economy:
+  claim-price: 100.0
+
+limits:
+  faction-max-members: 15
+
+# Protect claims from being touched by outsiders
+protections:
+  # Do we PREVENT outsiders from interacting with things? Like doors, buttons, AND CHESTS!
+  # Set to false to ALLOW those actions!
+  interact: false

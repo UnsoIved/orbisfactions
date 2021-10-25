@@ -1,0 +1,12 @@
+name: OrbisFactions
+version: ${project.version}
+main: io.github.definitlyevil.orbisfactions.OrbisFactions
+api-version: 1.13
+load: STARTUP
+depend: ['Vault', 'PlaceholderAPI']
+commands:
+  obfadmin:
+    description: "Administration commands for OrbisFactions. "
+  obf:
+    aliases: ['f', 'factions', 'faction', 'fac']
+    description: "OrbisFactions player command. "
